@@ -38,9 +38,9 @@ Azure OpenAI 서비스를 활용하여 이메일의 내용을 분석하고, 주�
 
     이 애플리케이션을 사용하려면 Azure OpenAI 서비스의 인증 정보가 필요합니다. 정보를 설정하는 방법은 두 가지입니다.
 
-    **방법 1: 환경 변수 설정 (권장)**
+    **방법 1: 환경 변수 설정 **
 
-    프로젝트 루트 디렉터리에 `.env` 파일을 생성하고 아래와 같이 Azure OpenAI 정보를 입력합니다.
+    프로젝트 루트 디렉터리 `.env` 파일 정보에 아래와 같이 Azure OpenAI 정보를 입력합니다.
 
     ```
     AZURE_OPENAI_ENDPOINT="<YOUR_AZURE_OPENAI_ENDPOINT>"
